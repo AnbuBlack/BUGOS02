@@ -9,4 +9,4 @@ qr = qrcode.QRCode(
 qr.add_data(input_data)
 qr.make(fit=True)
 img = qr.make_image(fill='black', back_color='white')
-img.save('QRCODE/qrcode0001.png')
+img.save('qrcode0001.png')
