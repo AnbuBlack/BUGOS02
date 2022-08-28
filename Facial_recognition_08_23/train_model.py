@@ -10,7 +10,7 @@ import os
 
 # our images are located in the dataset folder
 print("[INFO] start processing faces...")
-imagePaths = list(paths.list_images("dataset"))
+imagePaths = list(paths.list_images("C:/Users/luisl/OneDrive/Documentos/GitHub/BUGOS02/Facial_recognition_08_23/dataset"))
 
 # initialize the list of known encodings and known names
 knownEncodings = []

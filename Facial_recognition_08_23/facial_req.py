@@ -36,7 +36,9 @@ while True:
 	# to 500px (to speedup processing)
 	frame = vs.read()
 	frame = imutils.resize(frame, width=250)
-	frame = imutils.rotate_bound(frame,-180)
+	#while using raspberry uncomment the following line 
+	#frame = imutils.rotate_bound(frame,-180)
+	
 	# Detect the fce boxes
 	boxes = face_recognition.face_locations(frame)
 	# compute the facial embeddings for each face bounding box
