@@ -1,6 +1,6 @@
 import cv2
 import os
-name = 'Lalito' #replace with your name
+name = 'yeseul' #replace with your name
 
 cam = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
