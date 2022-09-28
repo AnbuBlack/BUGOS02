@@ -1,6 +1,6 @@
 import qrcode
 # Link for website
-input_data = "https://www.youtube.com/watch?v=8NKOfVXAfgs&t=1s"
+input_data = "hi"
 #Creating an instance of qrcode
 qr = qrcode.QRCode(
         version=1,
